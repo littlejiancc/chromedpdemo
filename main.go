@@ -17,8 +17,8 @@ const (
 )
 
 const (
-	_linkReg  = `<p style="text-align: left;"><span style="font-size: 16px;">•&nbsp;<span style=" box-sizing: border-box; width: 100%;padding-right: 5px;padding-left: 5px;flex-basis: 0px;flex-grow: 1;max-width: 100%; ">.+?<a href=".+?" rel="nofollow" style="box-sizing: border-box;color: rgb\(0, 123, 255\);" data-linktype="2"><br style="box-sizing: border-box;">(.+?)</a></span></span></p>`
-	_titleReg = `<p style="box-sizing: border-box;margin-top: 0\.25rem !important;margin-bottom: 0\.25rem !important;text-align: left;"><small style="box-sizing: border-box;font-size: 12\.8px;"><span style="font-size: 16px;">&nbsp;&nbsp;&nbsp;・</span></small><span style="font-size: 16px;">&nbsp;</span><q style="box-sizing: border-box;"><span style="font-size: 16px;">(.+?)</span>`
+	_linkReg  = `<br style="box-sizing: border-box;">(.+?)</a></span></span></p>`
+	_titleReg = `<q style="box-sizing: border-box;"><span style="font-size: 16px;">(.+?)</span>`
 )
 
 var (
